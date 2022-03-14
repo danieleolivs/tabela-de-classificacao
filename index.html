@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./assets/style/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600&family=Poppins:ital,wght@0,300;1,200&display=swap" rel="stylesheet">
+
+        <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+    <h1>Tabela de classificação</h1>
+
+    <table style="width:100%">
+        <!--cabeçalho-->
+        <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Imagem</th>
+            <th>Vitórias</th>
+            <th>Empates</th>
+            <th>Derrotas</th>
+            <th>Pontos</th>
+            <!--mescla colunas em liinhas-->
+            <th colspan="3">Ações</th>
+            <!--rowspan: duas linhas em uma coluna-->
+        </tr>
+        </thead>
+        <tbody id="tabelaJogadores">
+        </tbody>
+    </table>
+    <button id="controle" onclick="zerar()">Reiniciar pontuação</button>
+    <button id="controle" onclick="AdicionaJogador()">Adicionar Jogador</button>
+
+    <script src="./assets/script/index.js"></script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+* {
+    text-align: center;
+  }
+  
+  body {
+    font-family: "Roboto Mono", monospace;
+    background-image: url("https://th.bing.com/th/id/R.00ba2783999555edae718703c4242797?rik=l8KZ%2bKL4p%2fIY2Q&pid=ImgRaw&r=0");
+    background-color: #111;
+    backdrop-filter: blur(2.5px);
+    background-size: 100%;
+    width:96vw;
+    height:93vh;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  table{
+      background:black
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  table {
+    border: 2px solid white;
+    border-collapse: collapse;
+    border-radius:0.5rem;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1 {
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+    font-size:3rem
+  }
+  
+  th,
+  tr,
+  td {
+    border: solid 1px white;
+    color: white;
+  }
+
+  #imagem{
+      width:100%;
+      height:10rem
+  }
+
+  button{
+      width: 10rem;
+      height:3rem;
+      border-radius:.5rem;
+      color:white;
+      cursor:pointer;
+      border:none;
+  }
+
+  button:hover{
+    filter: brightness(0.8);
+  }
+
+  #jogador{
+      color:black
+  }
+  #controle{
+      margin-top:5rem;
+      color:black
+  }
